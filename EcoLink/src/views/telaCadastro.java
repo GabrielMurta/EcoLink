@@ -57,6 +57,7 @@ public class telaCadastro extends javax.swing.JFrame {
 
         jLabel5.setText("Senha");
 
+        bt_escolha.add(bt_fazenda);
         bt_fazenda.setText("Fazenda");
         bt_fazenda.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -64,6 +65,7 @@ public class telaCadastro extends javax.swing.JFrame {
             }
         });
 
+        bt_escolha.add(bt_restaurante);
         bt_restaurante.setText("Restaurante");
 
         jPanel3.setBackground(new java.awt.Color(102, 204, 0));

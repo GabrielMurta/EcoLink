@@ -151,6 +151,9 @@
         </Component>
         <Component class="javax.swing.JRadioButton" name="bt_fazenda">
           <Properties>
+            <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+              <ComponentRef name="bt_escolha"/>
+            </Property>
             <Property name="text" type="java.lang.String" value="Fazenda"/>
           </Properties>
           <Events>
@@ -159,6 +162,9 @@
         </Component>
         <Component class="javax.swing.JRadioButton" name="bt_restaurante">
           <Properties>
+            <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+              <ComponentRef name="bt_escolha"/>
+            </Property>
             <Property name="text" type="java.lang.String" value="Restaurante"/>
           </Properties>
         </Component>
